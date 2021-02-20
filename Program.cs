@@ -1,12 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CodeWarsBattlefield
 {
-    partial class Program
+    internal partial class Program
     {
-        static void Main(string[] args)
+        private static readonly IList<int> collection = new List<int>
+            {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24};
+
+        private static PagnationHelper<int> helper;
+
+        public static void SetUp()
         {
-            Console.Write(GetUnique(new[] {2, 1, 2, 2}));
+            helper = new PagnationHelper<int>(collection, 10);
+        }
+
+        private static void Main(string[] args)
+        {
+            SetUp();
+
+            Console.Write(helper.PageIndex(24));
             Console.Read();
         }
     }
