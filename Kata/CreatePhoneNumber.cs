@@ -1,6 +1,3 @@
-using System;
-using System.Linq;
-
 namespace CodeWarsBattlefield
 {
     partial class Program

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace CodeWarsBattlefield
 {
@@ -7,7 +6,7 @@ namespace CodeWarsBattlefield
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(FindEvenIndex(20, 10, 30, 10, 10, 15, 35));
+            Console.Write(GetUnique(new[] {2, 1, 2, 2}));
             Console.Read();
         }
     }
