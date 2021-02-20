@@ -6,7 +6,7 @@ namespace CodeWarsBattlefield
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Here is test text!");
+            Console.WriteLine(FindEvenIndex(20, 10, 30, 10, 10, 15, 35));
             Console.Read();
         }
     }
