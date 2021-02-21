@@ -7,7 +7,7 @@ namespace CodeWarsBattlefield
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine(StripComments("apples, pears # and bananas\ngrapes\nbananas !apples", new [] { "#", "!" }));
+            Console.WriteLine(UInt32ToIP(2149583361));
             Console.Read();
         }
     }
