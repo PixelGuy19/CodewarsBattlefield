@@ -38,6 +38,8 @@ namespace CodeWarsBattlefield
                     return result;
                 }
             }
+            
+            //best p. Array.Skip(x).Take(y)
         }
     }
 }
