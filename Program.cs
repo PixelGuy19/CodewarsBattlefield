@@ -29,7 +29,7 @@ namespace CodeWarsBattlefield
             
             //nine hundred seventy-one thousand six hundred ten
 
-            Console.WriteLine(NextSmaller(441));
+            Console.WriteLine(NextSmaller(1027));
             Console.Read();
         }
     }
