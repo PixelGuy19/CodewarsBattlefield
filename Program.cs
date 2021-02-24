@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CodeWarsBattlefield
 {
@@ -27,7 +28,8 @@ namespace CodeWarsBattlefield
             };
             
             //nine hundred seventy-one thousand six hundred ten
-            Console.WriteLine(CountCombinations(4, new []{1,2}));
+
+            Console.WriteLine(NextSmaller(441));
             Console.Read();
         }
     }
