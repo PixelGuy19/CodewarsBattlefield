@@ -28,8 +28,7 @@ namespace CodeWarsBattlefield
             };
             
             //nine hundred seventy-one thousand six hundred ten
-
-            Console.WriteLine(string.Join(',', Top3("e e e e DDD ddd DdD: ddd ddd aa aA Aa, bb cc cC e e e")));
+            
             Console.Read();
         }
     }
