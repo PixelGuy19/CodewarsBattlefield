@@ -29,6 +29,7 @@ namespace CodeWarsBattlefield
             
             //nine hundred seventy-one thousand six hundred ten
             
+            Console.WriteLine(BalancedParens(2));
             Console.Read();
         }
     }
