@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace CodeWarsBattlefield
 {
@@ -28,9 +29,11 @@ namespace CodeWarsBattlefield
             };
             
             //nine hundred seventy-one thousand six hundred ten
-            
-            Console.WriteLine(BalancedParens(2));
+
+            Console.WriteLine(solveExpression("-?56373--9216=-?47157"));
             Console.Read();
+
+            
         }
     }
 }
