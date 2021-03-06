@@ -30,8 +30,6 @@ namespace CodeWarsBattlefield
             };
             
             //nine hundred seventy-one thousand six hundred ten
-            string Obj = ConcatStringMembers(new Braf("V"));
-            Console.WriteLine(Obj);
             Console.Read();
         }
     }
