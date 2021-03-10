@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace CodeWarsBattlefield
 {
@@ -20,8 +19,8 @@ namespace CodeWarsBattlefield
             startFiles["C"] = new string[] {"D"};
             startFiles["D"] = new string[] {"A"};
 
-            
-            Console.WriteLine(new Program().Evaluate("2^3+2^(2/2)"));
+            FluentCalculator calculator = new FluentCalculator();
+            Console.WriteLine(calculator.One.Plus.One.Result() + calculator.One.Plus.One.Result());
             Console.Read();
         }
     }
