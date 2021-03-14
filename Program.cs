@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CodeWarsBattlefield
 {
@@ -19,8 +20,9 @@ namespace CodeWarsBattlefield
             startFiles["C"] = new string[] {"D"};
             startFiles["D"] = new string[] {"A"};
 
-            FluentCalculator calculator = new FluentCalculator();
-            Console.WriteLine(calculator.One.Plus.One.Result() + calculator.One.Plus.One.Result());
+            List<int> Numbers = Stream().ToList();
+            string Txt = string.Join(',', Numbers[1337]);
+            Console.WriteLine(Txt);
             Console.Read();
         }
     }
