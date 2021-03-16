@@ -20,9 +20,8 @@ namespace CodeWarsBattlefield
             startFiles["C"] = new string[] {"D"};
             startFiles["D"] = new string[] {"A"};
 
-            List<int> Numbers = Stream().ToList();
-            string Txt = string.Join(',', Numbers[1337]);
-            Console.WriteLine(Txt);
+            Car Car = new Car(5);
+            Console.WriteLine();
             Console.Read();
         }
     }
